@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <!-- Link to our script file -->
+        
+        <script type="text/javascript" src="scripts/slideshowControls.js"></script>
+        
+        <!-- Link to our stylesheet -->
+        
+        <link rel="stylesheet" href="quotestyle-fancy.css">
+        
+    </head>
+    
+    <body>
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width slides/quotes -->
+            <div class="slide">
+                <q>Sunshine Farms are super great and I want to go there again!</q>
+                <p class="author">- Unimportant Publication</p>
+            </div>
+
+            <div class="slide">
+                <q>This is literally the best place in the entire world.</q>
+                <p class="author">- Our Mom</p>
+            </div>
+
+            <div class="slide">
+                <q>Certainly a passable way to spend a weekend</q>
+                <p class="author">- Super Important Publication</p>
+            </div>
+
+            <!-- Next/prev buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        
+
+        <!-- Dots/bullets/indicators -->
+        <div class="dot-container">
+            <span class="dot" onclick="showSlide(0)"></span> 
+            <span class="dot" onclick="showSlide(1)"></span> 
+            <span class="dot" onclick="showSlide(2)"></span> 
+        </div>
+        
+        <script>showSlide(0)</script>
+
+    </body>
+</html>
